@@ -110,12 +110,8 @@ export const headerData = {
         },
       ],
     },
-    {
-      text: 'Widgets',
-      href: '#',
-    },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  actions: [{ text: 'Contact', href: getPermalink('contact'), target: '_self' }],
 };
 
 export const footerData = {
